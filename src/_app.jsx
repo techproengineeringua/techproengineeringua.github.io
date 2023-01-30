@@ -10,6 +10,7 @@ import AboutUsPage from './pages/AboutUsPage';
 import ServicesPage from './pages/ServicesPage';
 import ServicePage from './pages/ServicePage';
 import FeedbackPage from './pages/FeedbackPage';
+import ContactButtonsAside from './components/ContactButtonsAside';
 import ScrollToTop from './components/ScrollToTop';
 import Footer from './components/Footer';
 
@@ -30,6 +31,7 @@ function App() {
             <Route path={ROUTE_NAMES.SERVISE} element={<ServicePage />} />
             <Route path={ROUTE_NAMES.FEEDBACK} element={<FeedbackPage />} />
           </Routes>
+          <ContactButtonsAside />
           <ScrollToTop />
           <Footer />
         </Router>

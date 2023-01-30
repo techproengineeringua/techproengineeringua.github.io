@@ -13,9 +13,7 @@ const en = {
   },
   videoBg: {
     list: [
-      "Metal laser cutting",
-      "Surface engraving",
-      "Powder coating"
+      "Metal laser cutting"
     ],
     btnText: "Our Services"
   },
@@ -30,10 +28,6 @@ const en = {
     servicesList: [
       {
         title: "Metal laser cutting nachine"
-      },
-      {
-        title: "Equipment for laser cutting of other materials",
-        subtitle: "(Wood, foam, acrylic, etc.)"
       },
       {
         title: "Park of optical fiber and CO2 engraving lasers",
@@ -55,9 +49,6 @@ const en = {
       },
       {
         title: "Ultrasonic bath for cleaning various surfaces"
-      },
-      {
-        title: "Packaging machinery"
       }
     ],
     text2: `The use of state-of-the-art equipment and the latest developments allows us to fulfill various orders very efficiently and quickly. A wide range of equipment enables the production of various products and parts. We also work with serial orders of any complexity to meet the needs of our customers in various industries. We do not limit ourselves to standard positions, we are ready for creative cooperation. You can get acquainted with our works on social media.`,
@@ -86,9 +77,14 @@ const en = {
             "- Speed and automation of the laser cutting process;",
             "- High precision of the equipment for laser cutting (there is no need for further mechanical adjustment of the part to the given dimensions);"
           ],
-          "Production parameters of our machine: working field 1500x3000 cm, cutting thickness of rough metal 16 mm, stainless steel 8 mm.",
+          "Production parameters of our machine: ",
+          "- We cut with nitrogen and air;",
+          "- Steel up to 16 mm;",
+          "- Stainless steel up to 8 mm;",
+          "- Table working area 3000 x 1500 mm;",
+          "- Cutting accuracy +- 0.1mm;",
           "Another direction of our work is the cutting of non-metallic materials, which includes the cutting of foam rubber, leather, acrylic, plastic, plywood, etc.",
-          "TechProEngineering provides laser cutting services for metal, leather, plywood and other materials in Rivne and with delivery throughout Ukraine."
+          "TechProEngineering provides laser cutting services for metal, leather, plywood and other materials in city Sarny, Rivne region and with delivery throughout Ukraine."
         ],
         feedbackText1: "The cost of the laser cutting service is calculated individually. You can use our ",
         feedbackLink: "feedback form",
@@ -109,7 +105,7 @@ const en = {
           "The main activity of our company is the provision of laser engraving services on metals and non-metals.",
           "A wide range of laser engraving equipment allows us to apply any information in the form of text, images or logos on metal, plastic, leather, wood, ceramics, rubber, fabric, glass, etc. and quickly and efficiently process large bulk orders.",
           "The image obtained by laser engraving is characterized by durability and wear resistance, and thanks to the high controllability of the processing processes, it is possible to obtain both light surface marking and deep laser engraving. Laser engravers have found wide application in souvenir and advertising products, as well as in manufacturing enterprises.",
-          "TechProEngineering provides laser engraving services for metal, leather, ceramics, stainless steel and other materials in Rivne and with delivery throughout Ukraine.",
+          "TechProEngineering provides laser engraving services for metal, leather, ceramics, stainless steel and other materials in city Sarny, Rivne region and with delivery throughout Ukraine.",
           "The cost of the laser engraving service is calculated individually."
         ],
         feedbackText1: "You can use our ",
@@ -139,7 +135,7 @@ const en = {
           ],
           "Dimensions of our powder chamber: 1500x1000x1000 cm.",
           "We get the best result of painting by carrying out preliminary technological treatment of the surface. At the enterprise, you can choose the necessary process that will allow you to prepare the products for painting as much as possible.",
-          "TechProEngineering provides services of high-quality powder coating of car rims and other metals in the city of Rivne and with delivery throughout the territory of Ukraine.",
+          "TechProEngineering provides services of high-quality powder coating of car rims and other metals in the city Sarny, Rivne region and with delivery throughout the territory of Ukraine.",
           "The cost of the powder painting service is calculated individually."
         ],
         phoneText: "For all questions, contact us by phone, our managers will be happy to help you:",
@@ -150,7 +146,7 @@ const en = {
         url: "sklostrumeneva-piskostrumenneva-obrobka",
         helmet: {
           title: "Glass-blasting and sandblasting of metal TechPro Rivne",
-          metaContent: "Delicate cleaning and grinding of metal, glass-blasting and sandblasting without damage to carvings and surfaces in the Rivne region and with delivery across Ukraine from Tech Pro Engineering."
+          metaContent: "Delicate cleaning and grinding of metal, glass-blasting and sandblasting without damage to carvings and surfaces in the city Sarny, Rivne region and with delivery across Ukraine from Tech Pro Engineering."
         },
         title: "Glass-blasting and sandblasting",
         mediaType: "image",
@@ -159,7 +155,7 @@ const en = {
           "The delicacy of this treatment allows you to clean the materials without damaging the threads and landing surfaces.",
           "Sandblasting of metal is a method of cleaning metal surfaces with an abrasive flow that acts as a grinding agent. This process has a double function: it cleans the surface and gives it roughness.",
           "You can independently choose the type of processing that interests you the most and contact us.",
-          "TechProEngineering provides services of glass-blasting and sandblasting of parts, metal surfaces in Rivne and with delivery throughout Ukraine."
+          "TechProEngineering provides services of glass-blasting and sandblasting of parts, metal surfaces in the city Sarny, Rivne region and with delivery throughout Ukraine."
         ],
         phoneText: "For all questions, contact us by phone, our managers will be happy to help you:",
         emailText: "Email:"
@@ -169,7 +165,7 @@ const en = {
         url: "shlifuvanya-turbogaltuvanya",
         helmet: {
           title: "High-precision metal machining, grinding, turbohalting, laser cutting and engraving TechPro Rivne",
-          metaContent: "Complex high-precision metalworking in the city of Rivne, centerless grinding and polishing of metals, turbo-halting of metal products in the Rivne region and with delivery across Ukraine from Tech Pro Engineering."
+          metaContent: "Complex high-precision metalworking in the city Sarny, Rivne region, centerless grinding and polishing of metals, turbo-halting of metal products in the Rivne region and with delivery across Ukraine from Tech Pro Engineering."
         },
         title: "Grinding and turbohalting",
         mediaType: "video",
@@ -205,7 +201,7 @@ const en = {
             "- Fast, effective and thorough cleaning, no mechanical damage or scratches;",
             "- Ultrasound cleaning is safe for all types of materials, does not have a mechanical effect on the surface of the cleaned parts."
           ],
-          "TechProEngineering provides services for ultrasonic cleaning of parts from contamination in Rivne and with delivery throughout Ukraine."
+          "TechProEngineering provides services for ultrasonic cleaning of parts from contamination in the city Sarny, Rivne region and with delivery throughout Ukraine."
         ],
         phoneText: "For all questions, contact us by phone, our managers will be happy to help you:",
         emailText: "Email:"
@@ -233,7 +229,7 @@ const en = {
             "- Ceramics (tiles, etc.);",
             "- Silicones (phone cases)."
           ],
-          "TechProEngineering provides ultraviolet printing services on wood, glass, plastic, silicone and other materials in Rivne and with delivery throughout Ukraine."
+          "TechProEngineering provides ultraviolet printing services on wood, glass, plastic, silicone and other materials in the city Sarny, Rivne region and with delivery throughout Ukraine."
         ],
         phoneText: "You can contact us by phone:",
         emailText: "Email for sending drawings:"
@@ -263,7 +259,7 @@ const en = {
       {
         title: "How does the ordering process work? ",
         list1: [
-          "After contacting our specialists (via e-mail, phone, social networks, etc.), discussing all the details and pre-calculating your order, we transfer all this data to production."
+          "After contacting our specialists (via e-mail, phone, social networks, etc.), discussing all the details and pre-calculating your order, approving the drawings, making a full prepayment of the order, we transfer all data to production for the fulfillment of your order."
         ]
       },
       {
@@ -276,13 +272,13 @@ const en = {
       {
         title: "Is it possible to place an order without ready-made drawings, models, illustrations?",
         list1: [
-          "We have a full-time designer. For an additional fee, we will gladly create a working drawing for you, a design for engraving or for applying UV printing."
+          "We have a full-time design engineer. For an additional fee, we will create a working drawing and order design for you."
         ]
       },
       {
         title: "How is the delivery?",
         list1: [
-          "We deliver finished products throughout Ukraine by any transport companies."
+          "We deliver orders on the territory of Ukraine: Pickup / Nova Pochta / Bridge Express / Delivery."
         ]
       }
     ]
@@ -293,6 +289,7 @@ const en = {
   feedback: {
     title: "Feedback",
     btnText: "Send",
+    select_files: "Select files",
     inputs: [
       {
         name: "name",
@@ -339,11 +336,10 @@ const en = {
     list: [
       {
         title: "Phone number",
-        href: "tel:+380507745376",
+        href: "tel:+380501000845",
         icon: "icon-phone",
         content: [
-          "+38 (050) 774-53-76",
-          "+38 (099) 238-14-76"
+          "+38 (050) 100-08-45"
         ]
       },
       {
@@ -360,7 +356,7 @@ const en = {
         icon: "icon-location",
         content: [
           "Ukraine, Rivne Region,",
-          "Sarny city, str. Belgorodska, 13"
+          "Sarny city, str. Evropeyska, 13"
         ]
       }
     ]

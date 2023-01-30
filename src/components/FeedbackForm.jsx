@@ -7,7 +7,7 @@ import { Formik, Form, Field } from 'formik';
 import { feedbackFormData } from '../data/feedback';
 import AppearOnScrollWrapper from './animation/AppearOnScrollWrapper';
 
-export const EMAIL_CONFIG = {
+const EMAIL_CONFIG = {
   REACT_APP_PUBLIC_KEY: 'fHYoWtApHtV9w8Upq',
   REACT_APP_SERVICE_ID: 'service_1099hky',
   REACT_APP_TEMPLATE_ID: 'template_bnxpn1g',
@@ -29,6 +29,9 @@ const FeedbackForm = () => {
         town: yup.string().required(),
         service: yup.array().required().min(1),
         comment: yup.string().required(),
+        file: yup.object().shape({
+          name: yup.string().required(),
+        }),
       })}
       onSubmit={async (values, formikContext) => {
         emailjs
@@ -112,6 +115,27 @@ const FeedbackForm = () => {
               }
             />
           ))}
+          <AppearOnScrollWrapper
+            element={
+              <div className="file-input-wrapper">
+                <input
+                  id="file"
+                  name="file"
+                  type="file"
+                  className="feedback-form_input inner-border green-shadow-hover fs-10 txt-transparent-grey"
+                  onChange={(event) =>
+                    formikContext.setFieldValue(
+                      'file',
+                      event.currentTarget.files[0]
+                    )
+                  }
+                />
+                <div className="file-input-wrapper_btn">
+                  {feedback.select_files}
+                </div>
+              </div>
+            }
+          />
           <button
             type="submit"
             className="button-primary green-shadow-hover"

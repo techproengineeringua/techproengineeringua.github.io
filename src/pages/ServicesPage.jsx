@@ -16,10 +16,10 @@ const ServicesPage = () => {
       </Helmet>
       <AppearOnScrollWrapper element={(
         <ul className='services-page_nav'>
-          {services.list.map((service) => {
+          {services.list.map((service, i) => {
             return (
             <Link to={`/services/${service.url}`} key={service.title}>
-              <li className='services-page_nav_nav-item inner-border fs-11 green-shadow-hover'>
+              <li className={`services-page_nav_nav-item inner-border ${i === 0 ? 'fs-15 txt-green' : 'fs-11'} green-shadow-hover`}>
                 <span>
                   <span>
                     {service.title}

@@ -31,6 +31,10 @@
   &_container {
     display: flex;
     gap: 40px;
+
+    @media screen and (max-width: 640px) {
+      gap: 20px;
+    }
   }
 
   &_nav {

@@ -33,6 +33,64 @@
     }
   }
 
+  .file-input-wrapper {
+    position: relative;
+
+    input[type=file]::-webkit-file-upload-button {
+      visibility: hidden;
+    }
+
+    &_btn {
+      position: absolute;
+      top: 5px;
+      left: 3px;
+      display: inline-block;
+      color: v.$green;
+      text-transform: uppercase;
+      padding: 15px;
+      outline: none;
+      white-space: nowrap;
+      -webkit-user-select: none;
+      user-select: none;
+      cursor: pointer;
+      font-size: 14px;
+      font-family: monospace;
+      font-weight: 600;
+      letter-spacing: 0;
+      transition: 300ms;
+    }
+  }
+
+  input[type=file]::-webkit-file-upload-button {
+    visibility: hidden;
+  }
+
+  input[type=file] div {
+    content: 'Select some files';
+    display: inline-block;
+    color: v.$green;
+    text-transform: uppercase;
+    padding: 15px;
+    outline: none;
+    white-space: nowrap;
+    -webkit-user-select: none;
+    user-select: none;
+    cursor: pointer;
+    font-size: 14px;
+    font-family: monospace;
+    font-weight: 600;
+    letter-spacing: 0;
+    transition: 300ms;
+  }
+
+  input[type=file]:hover {
+    cursor: pointer;
+  }
+
+  input[type=file]:hover::before {
+    color: v.$green;
+  }
+
   &_input[type=textarea] {
     height: 150px;
     resize: vertical;

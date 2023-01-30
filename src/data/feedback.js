@@ -5,7 +5,8 @@ export const feedbackFormData =  {
     phone: "",
     town: "",
     service: [],
-    comment: ""
+    comment: "",
+    file: {}
   },
   inputs: [
     {

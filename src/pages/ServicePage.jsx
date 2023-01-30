@@ -74,9 +74,9 @@ const ServiceItem = ({ serviceObject }) => {
                 <span className="mg-r-10">{serviceObject.phoneText}</span>
                 <a
                   className="txt-green service-item-page_content_text_link"
-                  href="tel:+380507745376"
+                  href="tel:+380501000845"
                 >
-                  +38 (050) 774-53-76
+                  "+38 (050) 100-08-45"
                 </a>
               </p>
             )}

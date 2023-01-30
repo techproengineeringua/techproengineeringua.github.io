@@ -34,10 +34,10 @@ const AboutUsPage = () => {
       <AppearOnScrollWrapper
         element={(
           <ul className='about-us-page_services-list'>
-            {aboutUs.servicesList.map((servicesListItem) => (
+            {aboutUs.servicesList.map((servicesListItem, i) => (
               <li className='about-us-page_services-list_item' key={servicesListItem.title}>
-                <div className='about-us-page_services-list_item_content fs-12'>
-                  <p className='fs-12 txt-white'>{servicesListItem.title}</p>
+                <div className='about-us-page_services-list_item_content'>
+                  <p className={`${i === 0 ? 'txt-green fs-20' : 'txt-white fs-12'}`}>{servicesListItem.title}</p>
                   {servicesListItem.subtitle && (
                     <p className='fs-10 txt-green'>{servicesListItem.subtitle}</p>
                   )}
