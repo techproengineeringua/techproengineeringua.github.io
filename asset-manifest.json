@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.72ff4b10.css",
-    "main.js": "/static/js/main.a4a74934.js",
+    "main.css": "/static/css/main.46d315fa.css",
+    "main.js": "/static/js/main.59130750.js",
     "static/js/787.150c3b70.chunk.js": "/static/js/787.150c3b70.chunk.js",
     "static/media/ProTech.mp4": "/static/media/ProTech.0635690087be4a0f9cd9.mp4",
     "static/media/ProTech_Mobile.mp4": "/static/media/ProTech_Mobile.7d14cf16e6378ad78d0c.mp4",
@@ -15,13 +15,15 @@
     "static/media/ultrazvukove_promyslove_ochyschenya.png": "/static/media/ultrazvukove_promyslove_ochyschenya.1afa5d93abb22bdcc475.png",
     "static/media/lazerne_graviyuvanya.png": "/static/media/lazerne_graviyuvanya.f54e7c954a926833954d.png",
     "static/media/logo.png": "/static/media/logo.b1803179787a1e19e817.png",
+    "static/media/tel.png": "/static/media/tel.d09e658f5c15a9aaa54d.png",
+    "static/media/viber.png": "/static/media/viber.21cf774ff43ca5c525f7.png",
     "index.html": "/index.html",
-    "main.72ff4b10.css.map": "/static/css/main.72ff4b10.css.map",
-    "main.a4a74934.js.map": "/static/js/main.a4a74934.js.map",
+    "main.46d315fa.css.map": "/static/css/main.46d315fa.css.map",
+    "main.59130750.js.map": "/static/js/main.59130750.js.map",
     "787.150c3b70.chunk.js.map": "/static/js/787.150c3b70.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.72ff4b10.css",
-    "static/js/main.a4a74934.js"
+    "static/css/main.46d315fa.css",
+    "static/js/main.59130750.js"
   ]
 }
