@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.46d315fa.css",
-    "main.js": "/static/js/main.59130750.js",
+    "main.css": "/static/css/main.f043f725.css",
+    "main.js": "/static/js/main.5ebeae08.js",
     "static/js/787.150c3b70.chunk.js": "/static/js/787.150c3b70.chunk.js",
     "static/media/ProTech.mp4": "/static/media/ProTech.0635690087be4a0f9cd9.mp4",
     "static/media/ProTech_Mobile.mp4": "/static/media/ProTech_Mobile.7d14cf16e6378ad78d0c.mp4",
@@ -18,12 +18,12 @@
     "static/media/tel.png": "/static/media/tel.d09e658f5c15a9aaa54d.png",
     "static/media/viber.png": "/static/media/viber.21cf774ff43ca5c525f7.png",
     "index.html": "/index.html",
-    "main.46d315fa.css.map": "/static/css/main.46d315fa.css.map",
-    "main.59130750.js.map": "/static/js/main.59130750.js.map",
+    "main.f043f725.css.map": "/static/css/main.f043f725.css.map",
+    "main.5ebeae08.js.map": "/static/js/main.5ebeae08.js.map",
     "787.150c3b70.chunk.js.map": "/static/js/787.150c3b70.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.46d315fa.css",
-    "static/js/main.59130750.js"
+    "static/css/main.f043f725.css",
+    "static/js/main.5ebeae08.js"
   ]
 }
