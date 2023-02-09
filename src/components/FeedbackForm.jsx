@@ -53,7 +53,7 @@ const FeedbackForm = () => {
                 {feedback.subtitle}
                 <a
                   className="feedback-form_subtitle_link"
-                  href="mailto:su pport@techproengineering.com.ua"
+                  href="mailto:support@techproengineering.com.ua"
                 >
                   {feedback.subtitleLink}
                 </a>
