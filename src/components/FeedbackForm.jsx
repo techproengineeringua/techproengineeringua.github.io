@@ -29,9 +29,6 @@ const FeedbackForm = () => {
         town: yup.string().required(),
         service: yup.array().required().min(1),
         comment: yup.string().required(),
-        file: yup.object().shape({
-          name: yup.string().required(),
-        }),
       })}
       onSubmit={async (values, formikContext) => {
         emailjs
@@ -50,6 +47,19 @@ const FeedbackForm = () => {
     >
       {(formikContext) => (
         <Form className="feedback-form" id="feedback-form">
+          <AppearOnScrollWrapper
+            element={
+              <p className="feedback-form_subtitle">
+                {feedback.subtitle}
+                <a
+                  className="feedback-form_subtitle_link"
+                  href="mailto:su pport@techproengineering.com.ua"
+                >
+                  {feedback.subtitleLink}
+                </a>
+              </p>
+            }
+          />
           {feedback?.inputs?.map((input) => (
             <AppearOnScrollWrapper
               key={input.name}
@@ -115,27 +125,6 @@ const FeedbackForm = () => {
               }
             />
           ))}
-          <AppearOnScrollWrapper
-            element={
-              <div className="file-input-wrapper">
-                <input
-                  id="file"
-                  name="file"
-                  type="file"
-                  className="feedback-form_input inner-border green-shadow-hover fs-10 txt-transparent-grey"
-                  onChange={(event) =>
-                    formikContext.setFieldValue(
-                      'file',
-                      event.currentTarget.files[0]
-                    )
-                  }
-                />
-                <div className="file-input-wrapper_btn">
-                  {feedback.select_files}
-                </div>
-              </div>
-            }
-          />
           <button
             type="submit"
             className="button-primary green-shadow-hover"

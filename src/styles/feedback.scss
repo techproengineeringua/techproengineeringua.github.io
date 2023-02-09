@@ -19,6 +19,17 @@
   gap: 20px;
   flex-direction: column;
 
+  &_subtitle {
+    color: white;
+    margin: 10px 0;
+    text-align: center;
+  
+    &_link {
+      color: v.$green;
+      padding: 0 10px;
+    }
+  }
+
   &_input {
     background: black;
     padding: 15px;

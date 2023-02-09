@@ -45,7 +45,7 @@ const ServiceItem = ({ serviceObject }) => {
         <meta name="description" content={serviceObject.helmet.metaContent} />
       </Helmet>
       {serviceObject.mediaType === "video" && (
-        <video autoPlay muted loop className="service-item-page_media">
+        <video autoPlay muted loop playsInline className="service-item-page_media">
           <source src={media} type="video/mp4" />
           Your browser does not support the video tag.
         </video>

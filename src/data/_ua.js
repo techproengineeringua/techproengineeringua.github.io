@@ -293,6 +293,8 @@ const ua = {
   },
   feedback: {
     title: "Зворотній зв'язок",
+    subtitle: "Щоб надіслати email з додатковими файлами - перейдіть за",
+    subtitleLink: "посиланням",
     btnText: "Відправити",
     select_files: "Обрати файл",
     inputs: [

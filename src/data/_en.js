@@ -288,6 +288,8 @@ const en = {
   },
   feedback: {
     title: "Feedback",
+    subtitle: "To send an email with attached files please follow",
+    subtitleLink: "the link",
     btnText: "Send",
     select_files: "Select files",
     inputs: [

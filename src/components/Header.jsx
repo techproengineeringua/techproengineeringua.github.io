@@ -5,7 +5,7 @@ import { Link, useLocation } from 'react-router-dom'
 import LanguageSwitchBtn from "./LanguageSwitchBtn"
 import { ROUTE_NAMES } from "../data/data"
 
-import logo from "../media/logo-70.png"
+import logo from "../media/logo.png"
 
 const Header = () => {
   const { pathname } = useLocation()

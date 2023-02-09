@@ -23,7 +23,7 @@ const AboutUsPage = () => {
         <meta name="description" content="Надаємо послуги лазерної порізки металів, лазерного гравіювання, порошкового фарбування, турбогалтування та шліфування деталей, склосструменевої та піскоструменевої обробки, ультрафіолетового друку та ультрафіолетової очистки поверхонь. Швидка та якісна обробка замовлень TechProEngineering у Рівненській області (м. Сарни) та з доставкою по Україні." />
       </Helmet>
       <div className='page_header'>
-        <video autoPlay muted loop className='page_header_img'>
+        <video autoPlay muted loop playsInline className='page_header_img'>
           <source src={isMobileDevice ? mobileClip : desktopClip} type="video/mp4" />
           Your browser does not support the video tag.
         </video>
