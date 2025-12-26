@@ -362,7 +362,8 @@ const en = {
         ]
       }
     ]
-  }
+  },
+  "openCatalog": "Open catalog"
 }
 
 export default en

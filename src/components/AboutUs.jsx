@@ -5,6 +5,7 @@ import { Link } from "react-router-dom"
 import { ROUTE_NAMES } from "../data/data"
 import Button from "./Button"
 import logo from "../media/logo.png"
+import CatalogButton from "./CatalogBtn"
 
 
 const AboutUs = () => {
@@ -28,6 +29,7 @@ const AboutUs = () => {
         </div>
         <img className="logo" src={logo} alt="logo" />
       </div>
+      <CatalogButton />
     </section>
   )
 }

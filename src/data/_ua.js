@@ -367,7 +367,8 @@ const ua = {
         ]
       }
     ]
-  }
+  },
+  "openCatalog": "Відкрити каталог"
 }
 
 export default ua
