@@ -21,9 +21,6 @@ function App() {
         <Router>
           <Header />
           <Routes>
-            <Route exact path="https://techproengineering.com.ua">
-              <Redirect to="https://uatechpro.com" />
-            </Route>
             <Route path={ROUTE_NAMES.HOME} element={<HomePage />} />
             <Route path={ROUTE_NAMES.ABOUT_US} element={<AboutUsPage />} />
             <Route
