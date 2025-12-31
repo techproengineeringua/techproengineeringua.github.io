@@ -53,6 +53,7 @@
       text-decoration: none;
       text-transform: uppercase;
       transition: 500ms;
+      letter-spacing: 2px; /* to overwrite letter-spacing for open-pdf-btn*/
 
       &:hover {
         color: v.$green;

@@ -29,7 +29,7 @@ const AboutUs = () => {
         </div>
         <img className="logo" src={logo} alt="logo" />
       </div>
-      <CatalogButton />
+      <CatalogButton hasIcon text='openCatalog' />
     </section>
   )
 }

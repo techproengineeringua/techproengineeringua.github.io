@@ -6,6 +6,7 @@ import LanguageSwitchBtn from "./LanguageSwitchBtn"
 import { ROUTE_NAMES } from "../data/data"
 
 import logo from "../media/logo.png"
+import CatalogButton from "./CatalogBtn"
 
 const Header = () => {
   const { pathname } = useLocation()
@@ -40,6 +41,7 @@ const Header = () => {
           <HeaderLink link={ROUTE_NAMES.ABOUT_US} label={header.nav.about_us} onClick={() => toggleDrawerMenu(false)} />
           <HeaderLink link={ROUTE_NAMES.SERVISES} label={header.nav.services} onClick={() => toggleDrawerMenu(false)} />
           <HeaderLink link={ROUTE_NAMES.FEEDBACK} label={header.nav.feedback} onClick={() => toggleDrawerMenu(false)} />
+          <CatalogButton customClass="header_nav_link fs-12 txt-white" />
         </div>
         <LanguageSwitchBtn />
         <button className="header_menu-btn btn-open" onClick={() => toggleDrawerMenu(!isDrawerMenuVisible)}> </button>

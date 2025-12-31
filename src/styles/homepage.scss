@@ -73,60 +73,8 @@
 }
 
 .open-pdf-btn {
-  color: #CBFB45;
   background-color: transparent;
   border: none;
-  display: flex;
-  align-items: center;
-  margin: 50px auto 0;
-  gap: 20px;
-  text-transform: uppercase;
-  font-weight: 600;
-
-  .icon-group {
-    position: relative;
-    width: 34px;
-    height: 34px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    .icon-ring {
-      opacity: 1;
-      border: 1px solid #CBFB45;
-      border-radius: 100%;
-      position: absolute;
-      left: 0;
-      top: 0;
-      width: 100%;
-      height: 100%;
-      transform: rotate(0deg);
-      transition: transform 1s cubic-bezier(0.33, 1, 0.68, 1) 0.1s;
-
-      .icon-gradient {
-        position: absolute;
-        width: 100%;
-        height: 100%;
-        left: -1px;
-        right: -1px;
-        top: -1px;
-        bottom: -1px;
-        background: linear-gradient(150deg, #000 0%, #000 20%, rgba(21, 21, 23, 0) 50%, rgba(21, 21, 23, 0) 100%);
-      }
-    }
-  }
-
-  .icon {
-    transition: transform 0.7s cubic-bezier(0.23, 1, 0.32, 1);
-  }
-}
-
-.open-pdf-btn:hover .icon-ring {
-  transform: rotate(360deg);
-}
-
-.open-pdf-btn:hover .icon {
-  transform: translateY(2px);
 }
 
 /* Keyframes */
