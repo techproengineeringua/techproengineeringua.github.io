@@ -26,7 +26,9 @@ const CatalogButton = ({ hasIcon, text = 'catalog', customClass = '' }) => {
           </div>
         </div>
       )}
-      {lang[text]}
+      <span className="open-pdf-btn-text">
+        {lang[text]}
+      </span>
     </button>
   );
 };
