@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.5f40829c.css",
+    "main.css": "/static/css/main.d0b4ba77.css",
     "main.js": "/static/js/main.0ba376d3.js",
     "static/js/787.150c3b70.chunk.js": "/static/js/787.150c3b70.chunk.js",
     "static/media/ProTech.mp4": "/static/media/ProTech.0635690087be4a0f9cd9.mp4",
@@ -18,12 +18,12 @@
     "static/media/tel.png": "/static/media/tel.d09e658f5c15a9aaa54d.png",
     "static/media/viber.png": "/static/media/viber.21cf774ff43ca5c525f7.png",
     "index.html": "/index.html",
-    "main.5f40829c.css.map": "/static/css/main.5f40829c.css.map",
+    "main.d0b4ba77.css.map": "/static/css/main.d0b4ba77.css.map",
     "main.0ba376d3.js.map": "/static/js/main.0ba376d3.js.map",
     "787.150c3b70.chunk.js.map": "/static/js/787.150c3b70.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5f40829c.css",
+    "static/css/main.d0b4ba77.css",
     "static/js/main.0ba376d3.js"
   ]
 }
